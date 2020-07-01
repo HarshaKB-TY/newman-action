@@ -13,6 +13,8 @@ async function init () {
       apiKey: '?apikey=' + get('postmanApiKey'),
       collection: get('collection'),
       environment: get('environment'),
+      exportenvironment: get('export-environment'),
+      reporterCliNoAuccessAssertions:get('reporter-cli-no-success-assertions'), 
       globals: get('globals'),
       iterationCount: Number(get('iterationCount')),
       iterationData: get('iterationData'),
