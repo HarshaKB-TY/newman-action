@@ -14,6 +14,9 @@ inputs:
   environment:
     description: 'Environment to use'
     default: 'postman_environment.json'
+  export-environment:
+    description: 'Export to EnvironmentName.json'
+    default: 'postman_environment.json'   
   globals:
     description: 'Globals to use'
   iterationCount:
